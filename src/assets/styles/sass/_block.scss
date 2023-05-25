@@ -89,10 +89,11 @@
 
 pre[class*="language-"] {
     margin: 0 !important;
+    background-color: transparent;
 
     &:before, &:after {
         display: none !important;
-    } 
+    }
 
     code {
         border-left: 0 none !important;
@@ -102,26 +103,26 @@ pre[class*="language-"] {
         color: var(--text-color);
         font-size: 14px;
         padding: 0 2rem !important;
-    
+
         .token {
             &.tag,
             &.keyword {
                 color: #2196F3 !important;
             }
-    
+
             &.attr-name,
             &.attr-string {
                 color: #2196F3 !important;
             }
-    
+
             &.attr-value {
                 color: #4CAF50 !important;
             }
-    
+
             &.punctuation {
                 color: var(--text-color);
             }
-    
+
             &.operator,
             &.string {
                 background: transparent;
